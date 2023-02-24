@@ -1,6 +1,11 @@
 import { createApp } from 'vue'
-``
-import "vuestic-ui/css"
+import PrimeVue from 'primevue/config';
+import PrimeButton from 'primevue/button';
+
 import App from './App.vue'
-import { createVuestic } from 'vuestic-ui'
-createApp(App).use(createVuestic()).mount('#app')
+const app = createApp(App)
+    .use(PrimeVue)
+
+app.component("PrimeButton", PrimeButton)
+
+    app.mount('#app')
