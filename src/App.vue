@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
@@ -13,7 +13,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </div>
   <HelloWorld msg="Vite + Vue" />
   <div class="bg-gray-500">
-    <VaButton >Button</VaButton>
+    <VaButton color="amber-500" size="large">Button</VaButton>
   </div>
 </template>
 
